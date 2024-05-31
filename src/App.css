@@ -1,0 +1,95 @@
+.card-category {
+  width: 220px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-right: 20px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+.card-category:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+}
+
+.card-category img {
+  height: 80px;
+  padding: 5px;
+
+  /* margin: auto 0; */
+}
+
+.card-category label {
+  text-align: center;
+  display: block;
+  background-color: #53d7e0;
+  color: rgb(95, 95, 95);
+  /* margin-bottom: 1px; */
+  border-radius: 5px;
+}
+
+.card-product {
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-right: 20px;
+  padding: 5px 10px;
+  transition: transform 0.2s;
+  background-color: #fff;
+  position: relative;
+}
+.card-product:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.05);
+  z-index: 1;
+}
+.card-product .new-sign {
+  position: absolute;
+  top: -21px;
+  right: -21px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(13deg);
+}
+.card-product img {
+  height: 100px;
+  /* padding: 5px; */
+  margin: 10px;
+  /* margin: auto 0; */
+}
+
+.card-product .categoryName {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding: 10px 0px;
+  color: rgb(95, 95, 95);
+}
+.card-product .OffPrice {
+  text-align: center;
+  display: block;
+  margin: 10px 0px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  border: 1px solid rgb(12, 109, 219);
+  color: rgb(12, 109, 219);
+}
+.card-product .salesPrice {
+  margin-top: 5px;
+  float: left;
+  font-weight: bold;
+  color: rgb(230, 63, 63);
+}
+.card-product .originalPrice {
+  margin-top: 5px;
+  float: right;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+  text-decoration: line-through;
+}
+.card-product .model {
+  text-align: left;
+  display: block;
+  margin-top: 20px;
+}
